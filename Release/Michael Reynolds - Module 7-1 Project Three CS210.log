@@ -1,0 +1,16 @@
+﻿  groceryTracking.cpp
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__PyImport_ImportModule
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__Py_BuildValue
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__Py_Finalize
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp___Py_Dealloc
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__Py_Initialize
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__PyModule_GetDict
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__PyObject_GetAttrString
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__PyDict_GetItemString
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__PyObject_CallObject
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__PyImport_Import
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__PyCallable_Check
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp___PyLong_AsInt
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__PyErr_Print
+groceryTracking.obj : error LNK2001: unresolved external symbol __imp__PyUnicode_FromString
+C:\Users\YVRPC\source\repos\Michael Reynolds - Module 7-1 Project Three CS210\Release\Michael Reynolds - Module 7-1 Project Three CS210.exe : fatal error LNK1120: 14 unresolved externals
