@@ -1,8 +1,8 @@
 # Backend-Portfolio
 
 ### Contents
-[Grocery Tracking App](README.md#grocery-tracking-app)
-[Software Design Docs](README.md#
+1. [Grocery Tracking App](README.md#grocery-tracking-app)
+2. [Software Design Docs](README.md#software-design-docs)
 
 
 
