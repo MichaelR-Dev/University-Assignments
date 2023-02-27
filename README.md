@@ -1,12 +1,13 @@
 # Backend-Portfolio
 
 ### Contents
-1. [Grocery Tracking App](README.md#grocery-tracking-app)
-2. [Gaming Room Software Design](README.md#software-design-docs)
+1. [Artemis Financial Vulnerabilities Assessment](README.md#vulnerability-assessment-artemis-financial)
+2. [Grocery Tracking App](README.md#grocery-tracking-app)
+3. [Gaming Room Software Design](README.md#software-design-gaming-room)
 
 
 
-### Grocery-Tracking-App
+### Grocery Tracking App
 
 - Summarize the project and what problem it was solving.
 
@@ -51,7 +52,7 @@ above them was a huge impact on readability throughout this process.  Again, the
 made this program very adaptable and easy to minimize written code with maximum functionality.
 ```
 
-### Software Design Docs
+### Software Design Gaming Room
 
 - Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
 ```
@@ -93,4 +94,55 @@ sort of 'reverse engineer' it in our head at a high level, it really helps to co
 dealing with, which is very important in moving forward with the process of "shaping" the perfect UX into the constraints 
 of the client themselves. Having this high level understanding of the product concept, is the best obstacle to strategize 
 and analyze around, slowly taking and giving according to the design constraints. 
+```
+
+### Vulnerability Assessment Artemis Financial
+
+- Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
+
+```
+Artemis Financial is a financial institution looking to bolster their security both in code and in business operation.
+```
+
+- What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
+
+```
+The client was failing to meet regulatory guidelines, utilize secure application endpoints, https, and data encryption. Secure coding is paramount to avoiding data breaches and mishandled data lawsuits. Malicious actors are always a looming threat and ensuring secure coding will provide bonuses to the company's overall wellbeing by ensuring security for bother the company and its clients.
+```
+
+- What part of the vulnerability assessment was challenging or helpful to you?
+
+```
+During the vulnerability assessment, I found it most challenging to handle version history. Having so many different vulnerabilities be from different dependency versions and be mitigated or exacerbated based on which tech stack was used on the backend made it a complex challenge.
+```
+
+- How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+
+```
+In order to increase layers of security, SHA-512 and SSL/TLS was implemented to ensure multiple points of vulnerability were covered. For future reference, ensuring an updated maven-dependency-check and staying up to date with industry standards, vulnerability patches, and zero day vulnerabilities will determine which methods of mitigation are used.
+```
+
+- How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+
+```
+Ensuring the application ran without error, proper testing and debugging, and generating new dependency check reports, iterating this work flow over each refactorization ensured I was aware of any new vulnerabilities due to my coding.
+```
+
+- What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+
+```
+A list of the resources, tools, coding practices used included:
+
+- https://nvd.nist.gov (National Vulnerability Database)
+- https://jeremylong.github.io/DependencyCheck/dependency-check-maven/index.html (Maven Dependency Check Plugin)
+- https://docs.oracle.com/javase/9/docs/specs/security/standard-names.html#cipher-algorithm-names (Oracle Recommended Cipher Algorithms)
+- https://docs.oracle.com/javase/6/docs/technotes/tools/windows/keytool.html (Oracle Keytool Key and Certificate Management Tool)
+- https://learn.snhu.edu/content/enforced/1237130-CS-305-J7785-OL-TRAD-UG.23EW3/course_documents/CS%20305%20Vulnerability%20Assessment%20Process%20Flow%20Diagram.pdf?_&d2lSessionVal=vkXVymSRbe6YFxBJ36UuSrjwm&ou=1237130 (Vulnerability Assessment Process Flow)
+
+```
+
+- Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+
+```
+I believe the strongest attributes of this assignment to show of my skills/knowledge/experience would be the necessity of scowering the NVD for vulnerability assessment, and utilizing proper encryption implementation. These can be overlooked by beginner back-end developers and I believe is considered to be foundational knowledge.
 ```
