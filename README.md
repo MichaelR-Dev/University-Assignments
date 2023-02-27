@@ -1,12 +1,44 @@
 # Backend-Portfolio
 
 ### Contents
-1. [Artemis Financial Vulnerabilities Assessment](README.md#vulnerability-assessment-artemis-financial)
+1. [DriverPass Business/System Requirements](README.md#driverpass-business-system-requirements)
+2. [Artemis Financial Vulnerabilities Assessment](README.md#artemis-financial-vulnerability-assessment)
 2. [Grocery Tracking App](README.md#grocery-tracking-app)
 3. [Gaming Room Software Design](README.md#software-design-gaming-room)
 
+### DriverPass Business System Requirements 
 
-### Vulnerability Assessment Artemis Financial
+- Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
+
+```
+The client is DriverPass, a driving instruction and examination company looking to create a multi-platform application for students to book road tests and complete assignments/exams according to DMV regulations per locality.  The system will include an administrative panel for assessing users data etc, a booking interface for road testing and driving instructor assignment. The application will include package plans that can be created/modified/deleted by admins. These packages are price plans for students to utilize the application.  
+```
+
+- What did you do particularly well?
+
+```
+The curation and translation of client interviews to UML diagrams, and then to technical jargon filtered presentations was a strong point in my ability to accomodate to a client.
+```
+
+- If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+
+```
+I'd definitely revise the Use Case UML diagram, it is definitely visually too complex, and could be very simplified and restructured for efficiency viewing. I'd probably space out the obvious bunched systems of dependents and connect my actors in a way less intersecting.
+```
+
+- How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
+
+```
+Being able to properly filter through a user's needs and understand the functional/non-functional requirements allowed me a pipeline to implementation and design. It's paramount to consider the user's needs when designing as their vision is ultimately the end goal, and the more we can take the user's needs and implement them to the system, the more accurate the application will ultimately be developed. User's needs generally directly translate in some way to a developable system, being able to translate this is important.
+```
+
+- How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
+
+```
+When designing software, I approach it from a very technical standpoint, ensuring the bare bones and framework are available before proceeding to design. This means when having client interviews etc, we can take user's needs and metaphorically strip the meat from it, leaving only the skeletal necessities from which we can build off of. In the future, utilizing this technique will ensure that having focused on functional requirements first, we have the groundwork for reaching towards min/maxing our development time, vs how long it will take to reach a suitable stable deployment.
+```
+
+### Artemis Financial Vulnerability Assessment 
 
 - Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
 
