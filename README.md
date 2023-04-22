@@ -5,6 +5,7 @@
 2. [Artemis Financial Vulnerabilities Assessment](README.md#artemis-financial-vulnerability-assessment)
 2. [Grocery Tracking App](README.md#grocery-tracking-app)
 3. [Gaming Room Software Design](README.md#software-design-gaming-room)
+4. [Software Test Automation & QA](README.md#software-test-automation-&-qa)
 
 ### DriverPass Business System Requirements 
 
@@ -176,4 +177,21 @@ sort of 'reverse engineer' it in our head at a high level, it really helps to co
 dealing with, which is very important in moving forward with the process of "shaping" the perfect UX into the constraints 
 of the client themselves. Having this high level understanding of the product concept, is the best obstacle to strategize 
 and analyze around, slowly taking and giving according to the design constraints. 
+```
+
+### Software Test Automation & QA
+
+- How can I ensure that my code, program, or software is functional and secure?
+```
+In order to ensure that my code/program/software is functional and secure, utilizing automation and unit tests can cover most avenues for Quality Assurance. Testing for appropriate functionality and security through iterative and modular automated test units is the best way to ensure covering all bases for Software criteria.
+```
+
+- How do I interpret user needs and incorporate them into a program?
+```
+Interpretting user needs and incorporating them into a program is both a matter of non-technical/technical jargon and the ability to discern requirements from unorganized context. One good example of this is if the user specifies they want users to not have access to an admin panel if they don't have the admin flag, in this scenario, we'd consider all routes to the admin panel and any admin functionality and ensure that a user without the flag can access none of these routes, this is an example of translating a client requirement and exhausting all scenarios involving the requirement.
+```
+
+- How do I approach designing software?
+```
+My approach to designing software involves a thorough pipeline with security and automation integrated each step of the way. Utilizing proper CI/CD and integrated Security/Testing, we can get a better high-level view of the Software and utilize the concepts even when designing. With consideration to Client Requirements first, and translating these to an airtight software design.
 ```
