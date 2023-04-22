@@ -5,7 +5,7 @@
 2. [Artemis Financial Vulnerabilities Assessment](README.md#artemis-financial-vulnerability-assessment)
 2. [Grocery Tracking App](README.md#grocery-tracking-app)
 3. [Gaming Room Software Design](README.md#software-design-gaming-room)
-4. [Software Test Automation & QA](README.md#software-test-automation-&-qa)
+4. [Software Test Automation & QA](README.md#software-test-automation--qa)
 
 ### DriverPass Business System Requirements 
 
