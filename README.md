@@ -12,31 +12,46 @@
 - Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
 
 ```
-The client is DriverPass, a driving instruction and examination company looking to create a multi-platform application for students to book road tests and complete assignments/exams according to DMV regulations per locality.  The system will include an administrative panel for assessing users data etc, a booking interface for road testing and driving instructor assignment. The application will include package plans that can be created/modified/deleted by admins. These packages are price plans for students to utilize the application.  
+The client is DriverPass, a driving instruction and examination company looking to create a multi-platform application 
+for students to book road tests and complete assignments/exams according to DMV regulations per locality.  The system 
+will include an administrative panel for assessing users data etc, a booking interface for road testing and driving 
+instructor assignment. The application will include package plans that can be created/modified/deleted by admins. 
+These packages are price plans for students to utilize the application.  
 ```
 
 - What did you do particularly well?
 
 ```
-The curation and translation of client interviews to UML diagrams, and then to technical jargon filtered presentations was a strong point in my ability to accomodate to a client.
+The curation and translation of client interviews to UML diagrams, and then to technical jargon filtered presentations 
+was a strong point in my ability to accomodate to a client.
 ```
 
 - If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
 
 ```
-I'd definitely revise the Use Case UML diagram, it is definitely visually too complex, and could be very simplified and restructured for efficiency viewing. I'd probably space out the obvious bunched systems of dependents and connect my actors in a way less intersecting.
+I'd definitely revise the Use Case UML diagram, it is definitely visually too complex, and could be very simplified 
+and restructured for efficiency viewing. I'd probably space out the obvious bunched systems of dependents and connect 
+my actors in a way less intersecting.
 ```
 
 - How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
 
 ```
-Being able to properly filter through a user's needs and understand the functional/non-functional requirements allowed me a pipeline to implementation and design. It's paramount to consider the user's needs when designing as their vision is ultimately the end goal, and the more we can take the user's needs and implement them to the system, the more accurate the application will ultimately be developed. User's needs generally directly translate in some way to a developable system, being able to translate this is important.
+Being able to properly filter through a user's needs and understand the functional/non-functional requirements allowed 
+me a pipeline to implementation and design. It's paramount to consider the user's needs when designing as their vision 
+is ultimately the end goal, and the more we can take the user's needs and implement them to the system, the more accurate 
+the application will ultimately be developed. User's needs generally directly translate in some way to a developable 
+system, being able to translate this is important.
 ```
 
 - How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
 
 ```
-When designing software, I approach it from a very technical standpoint, ensuring the bare bones and framework are available before proceeding to design. This means when having client interviews etc, we can take user's needs and metaphorically strip the meat from it, leaving only the skeletal necessities from which we can build off of. In the future, utilizing this technique will ensure that having focused on functional requirements first, we have the groundwork for reaching towards min/maxing our development time, vs how long it will take to reach a suitable stable deployment.
+When designing software, I approach it from a very technical standpoint, ensuring the bare bones and framework are available 
+before proceeding to design. This means when having client interviews etc, we can take user's needs and metaphorically 
+strip the meat from it, leaving only the skeletal necessities from which we can build off of. In the future, utilizing 
+this technique will ensure that having focused on functional requirements first, we have the groundwork for reaching 
+towards min/maxing our development time, vs how long it will take to reach a suitable stable deployment.
 ```
 
 ### Artemis Financial Vulnerability Assessment 
@@ -50,25 +65,33 @@ Artemis Financial is a financial institution looking to bolster their security b
 - What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
 
 ```
-The client was failing to meet regulatory guidelines, utilize secure application endpoints, https, and data encryption. Secure coding is paramount to avoiding data breaches and mishandled data lawsuits. Malicious actors are always a looming threat and ensuring secure coding will provide bonuses to the company's overall wellbeing by ensuring security for bother the company and its clients.
+The client was failing to meet regulatory guidelines, utilize secure application endpoints, https, and data encryption. 
+Secure coding is paramount to avoiding data breaches and mishandled data lawsuits. Malicious actors are always a looming 
+threat and ensuring secure coding will provide bonuses to the company's overall wellbeing by ensuring security for bother 
+the company and its clients.
 ```
 
 - What part of the vulnerability assessment was challenging or helpful to you?
 
 ```
-During the vulnerability assessment, I found it most challenging to handle version history. Having so many different vulnerabilities be from different dependency versions and be mitigated or exacerbated based on which tech stack was used on the backend made it a complex challenge.
+During the vulnerability assessment, I found it most challenging to handle version history. Having so many different 
+vulnerabilities be from different dependency versions and be mitigated or exacerbated based on which tech stack was 
+used on the backend made it a complex challenge.
 ```
 
 - How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
 
 ```
-In order to increase layers of security, SHA-512 and SSL/TLS was implemented to ensure multiple points of vulnerability were covered. For future reference, ensuring an updated maven-dependency-check and staying up to date with industry standards, vulnerability patches, and zero day vulnerabilities will determine which methods of mitigation are used.
+In order to increase layers of security, SHA-512 and SSL/TLS was implemented to ensure multiple points of vulnerability 
+were covered. For future reference, ensuring an updated maven-dependency-check and staying up to date with industry 
+standards, vulnerability patches, and zero day vulnerabilities will determine which methods of mitigation are used.
 ```
 
 - How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
 
 ```
-Ensuring the application ran without error, proper testing and debugging, and generating new dependency check reports, iterating this work flow over each refactorization ensured I was aware of any new vulnerabilities due to my coding.
+Ensuring the application ran without error, proper testing and debugging, and generating new dependency check reports, 
+iterating this work flow over each refactorization ensured I was aware of any new vulnerabilities due to my coding.
 ```
 
 - What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
@@ -87,7 +110,9 @@ A list of the resources, tools, coding practices used included:
 - Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
 
 ```
-I believe the strongest attributes of this assignment to show of my skills/knowledge/experience would be the necessity of scowering the NVD for vulnerability assessment, and utilizing proper encryption implementation. These can be overlooked by beginner back-end developers and I believe is considered to be foundational knowledge.
+I believe the strongest attributes of this assignment to show of my skills/knowledge/experience would be the 
+necessity of scowering the NVD for vulnerability assessment, and utilizing proper encryption implementation. 
+These can be overlooked by beginner back-end developers and I believe is considered to be foundational knowledge.
 ```
 
 ### Grocery Tracking App
