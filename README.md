@@ -6,6 +6,7 @@
 2. [Grocery Tracking App](README.md#grocery-tracking-app)
 3. [Gaming Room Software Design](README.md#software-design-gaming-room)
 4. [Software Test Automation & QA](README.md#software-test-automation--qa)
+5. [Python CRUD Module](README.md#pythong-crud-module)
 
 ### DriverPass Business System Requirements 
 
@@ -231,4 +232,21 @@ My approach to designing software involves a thorough pipeline with security and
 integrated each step of the way. Utilizing proper CI/CD and integrated Security/Testing, 
 we can get a better high-level view of the Software and utilize the concepts even when designing. 
 With consideration to Client Requirements first, and translating these to an airtight software design.
+```
+
+### Python CRUD Module
+
+- How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+```
+Every Project is different, but I've found there's a few ground rules to ensure maintainable/readable/adaptable programs. Having worked on Project One in developing the Python CRUD Module, I found quite a few bad practice errors I had to omit and spaghetti code to rewrite when continuing in Project Two. Having worked on the connection of the dashboard widgets and introducing new modules throughout the course, I found the best way to produce efficient code is to plan ahead and be thoughtful before speedy. Meeting deadlines is important, but when you speed through coding and get "everything in your head out on paper", you end up producing some god awful code and although I'm getting better it was definitely evident in Project One. I won't say that my Project Two code is up to par yet, but it's a far cry from what I had previously. Ensuring you use things like pseudocode comments, proper documentation, UML diagrams and what not, whatever it is to help you to visualize your code and standardize it across modules, that will be your solution to maintainable, readable, and adaptable programs.
+```
+
+- How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+```
+In previous client requirement approaches (Specifically in my higher learning), I was majorly focused on producing back-end implementations. This seems to be one of the first times I developed for a more full-stack application. It was easy to ignore most of the client requirements previously as I was more focused on just producing code and not so much the full product, but this project has definitely revealed a more grand picture. I approached this new learning curve with caution and made sure I used my research/resources to the full potential before running head first into unpreparedness. In previous assignments I was quick to start programming, I had a fluid/abstract idea in my head of what I wanted to program, but this time around I was sure to be careful and actually take time to approach the client requirements for the most insightful angles which reflected well into the application. The most important aspect I think I'll take from this into similar future work is, ensure the roadmap starts with reaching the most sustainable bare minimum of the client requirements first, and then expand on it with extreme caution.
+```
+
+- What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+```
+Computer Scientists have fundamental knowledge regarding the tools/methods used for solving client problems. It's in the name, computer 'scientist', where research, optimization, and solutions are born through the hard work and determination of this role. When a client like Grazioso Salvare approaches a computer scientist for a project like this, the computer scientist is expected to know the best possible solution and how to get there. They have an expertise in not just solving the problem, but ensuring it's the best possible solution. This does two things for the client, an ethical and well-guided Computer Scientist to the best of their knowledge will never recommend the client a solution that does more harm than good which is always better for companies. Secondly the Computer Scientist will familiarize itself with the company and cater to its workflow and mission, Computer Scientists don't only study the technology, but also specialize in translating the right technologies for the company to do its best to fit its productivity requirements.
 ```
