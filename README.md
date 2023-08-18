@@ -7,6 +7,7 @@
 3. [Gaming Room Software Design](README.md#software-design-gaming-room)
 4. [Software Test Automation & QA](README.md#software-test-automation--qa)
 5. [Python CRUD Module](README.md#pythong-crud-module)
+6. [DigitBloq Inventory App](README.md#digitbloq-inventory-app)
 
 ### DriverPass Business System Requirements 
 
@@ -249,4 +250,31 @@ In previous client requirement approaches (Specifically in my higher learning), 
 - What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
 ```
 Computer Scientists have fundamental knowledge regarding the tools/methods used for solving client problems. It's in the name, computer 'scientist', where research, optimization, and solutions are born through the hard work and determination of this role. When a client like Grazioso Salvare approaches a computer scientist for a project like this, the computer scientist is expected to know the best possible solution and how to get there. They have an expertise in not just solving the problem, but ensuring it's the best possible solution. This does two things for the client, an ethical and well-guided Computer Scientist to the best of their knowledge will never recommend the client a solution that does more harm than good which is always better for companies. Secondly the Computer Scientist will familiarize itself with the company and cater to its workflow and mission, Computer Scientists don't only study the technology, but also specialize in translating the right technologies for the company to do its best to fit its productivity requirements.
+```
+
+### DigitBloq Inventory App
+
+- Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
+```
+The DigitBloq Inventory App was designed to address a need for quick access inventory management, where simple interfaces can sum up stock and allow for quantity based notifications without the clutter/complexity of abstract details. This app tracks unit quantity stored in "nodes" which act as virtual representations of physical storage, in order to track items by SKU and Name that otherwise have no correlation. 
+```
+- What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+```
+The designs focused on simplicity, where views often followed the same pattern for color scheme and spacing, utilizing a lot of the same layouts and overall limiting the user workflow to 4 screens. The user is met with the login screen, then upon registration or login, they'll be met with their node screen where they have a vertical recylerview of all their storage locations. An adding screen is also included for adding new nodes, otherwise if the user continues to view a node, they can then access the node's inventory, being met with a very similar vertical recyclerview that has a list of their registered items and relevant quantities.
+```
+- How did you approach the process of coding your app? What techniques or strategies did you use? How could those be applied in the future?
+```
+A lot of the coding process used previous modules that I programmed for other practice apps, allowing me to reuse and familiarize myself with proper syntax used in previous modules based on android documentation. Following similar naming conventions and overall following the same guidelines of my practice, I was able to maintain a status quo with incremental improvements which I will use for future projects forward.
+```
+- How did you test to ensure your code was functional? Why is this process important and what did it reveal?
+```
+The testing was almost entirely manual usability testing, where I rigorously tested navigation and element spacing. Otherwise the UI was used through automation tests, that tested for simple functionality as most of the focus of the app's bugs were found upon navigation and element zoning.
+```
+- Considering the full app design and development process, from initial planning to finalization, where did you have to innovate to overcome a challenge?
+```
+I found I had to innovate a solution in order to limit some complex encapsulation, where I was nesting references in a very "spaghetti code" kind of way. I had too many nested dependencies upon fragment construction, and instead add an interface for callbacks that were database related so majority of the database methods would be called solely on the activity class.
+```
+- In what specific component from your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+```
+I believe I was very successful in implementing highly functional recyclerviews, though there maybe room for optimization, I found that it was very much "plug and play" when I was developing them, having done so in my practice apps, and not following the same "module implementation" strategy I used for much of the app, I relied heavily on documentation and my previous knowledge, and ended up allowing myself to put time into other things where I had struggled.
 ```

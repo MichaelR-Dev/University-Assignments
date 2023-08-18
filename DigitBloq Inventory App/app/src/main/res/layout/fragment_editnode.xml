@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:paddingTop="20dp"
+    android:background="@color/secondary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/edit_node"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAlignment="center"
+        android:src="@drawable/digitbloq"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/digitbloq"/>
+
+    <!-- Name input field -->
+    <EditText
+        android:id="@+id/editTextNodeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints="Node name"
+        android:backgroundTint="@color/primary"
+        android:hint="@string/enter_node_name"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <!-- Address input field -->
+    <EditText
+        android:id="@+id/editTextNodeAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/enter_node_address"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:maxLines="3"
+        android:inputType="textPostalAddress"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:autofillHints="Node address" />
+
+    <!-- Submit button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:text="@string/submit"
+        android:onClick="onLogin"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <!-- Cancel button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:text="@string/cancel"
+        android:onClick="onRegister"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

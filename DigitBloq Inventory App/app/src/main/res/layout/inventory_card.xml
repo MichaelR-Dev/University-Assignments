@@ -1,0 +1,123 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/inventory_card">
+    
+    <ImageView
+        android:id="@+id/card_inventory_image"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:paddingBottom="40dp"
+        android:background="@color/primary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@drawable/digitbloq_naked" />
+
+    <TextView
+        android:id="@+id/card_inventory_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        tools:text="Inventory Name"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/card_inventory_image"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/card_inventory_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        tools:text="Anytown, USA"
+        android:ellipsize="end"
+        android:maxLines="2"
+        app:layout_constraintTop_toBottomOf="@id/card_inventory_name"
+        app:layout_constraintStart_toEndOf="@id/card_inventory_image"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/card_inventory_remove"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@null"
+        android:contentDescription="@string/remove_button"
+        tools:text="REMOVE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/card_inventory_image"/>
+
+    <ImageView
+        android:id="@+id/low_icon"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:paddingTop="5dp"
+        android:paddingStart="10dp"
+        android:src="@drawable/digitbloq_low"
+        android:background="@drawable/pin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/card_inventory_remove" />
+
+    <TextView
+        android:id="@+id/card_inventory_low_count"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/pin"
+        android:gravity="center_vertical|center_horizontal"
+        tools:text="LOW 0/0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/low_icon" />
+
+    <ImageView
+        android:id="@+id/empty_icon"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/digitbloq_empty"
+        android:background="@drawable/pin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/card_inventory_low_count" />
+
+    <TextView
+        android:id="@+id/card_inventory_empty_count"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:paddingTop="5dp"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/pin"
+        android:gravity="center_vertical|start"
+        tools:text="EMPTY 0/0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/empty_icon"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

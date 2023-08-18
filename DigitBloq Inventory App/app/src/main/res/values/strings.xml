@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">michael_reynolds_inventory_app</string>
+    <string name="digitbloq">DigitBloq</string>
+    <string name="inventory">Storage Nodes</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="add">+</string>
+    <string name="notification_hint">notification icon clickable</string>
+    <string name="logo_hint">DigitBloq Logo</string>
+    <string name="edit_node">Edit Node</string>
+    <string name="enter_node_name">Enter Node Name</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_node_address">Enter Node Address</string>
+    <string name="edit_button">Edit Button</string>
+    <string name="remove_button">Remove button</string>
+    <string name="new_item_sku">New Item SKU</string>
+    <string name="new_item_name">New Item Name</string>
+</resources>

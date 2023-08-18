@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:paddingTop="20dp"
+    android:background="@color/secondary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/digitbloq"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAlignment="center"
+        android:src="@drawable/digitbloq"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Username input field -->
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints="username"
+        android:backgroundTint="@color/primary"
+        android:hint="@string/username"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <!-- Password input field -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/password"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:autofillHints="password" />
+
+    <!-- Login button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:text="@string/log_in"
+        android:onClick="onLogin"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <!-- Register button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:text="@string/register"
+        android:onClick="onRegister"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

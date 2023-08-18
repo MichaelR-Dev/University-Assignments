@@ -1,0 +1,140 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="fill_vertical"
+    android:background="@drawable/pin">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/back_button"
+        android:backgroundTint="@color/primary"
+        android:stateListAnimator="@null"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/node_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Node Name"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/itemsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/white_outline"
+        app:layout_constraintTop_toBottomOf="@id/node_name"
+        app:layout_constraintBottom_toTopOf="@id/inventory_footer"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="com.zybooks.michael_reynolds_inventory_app.InventoryActivity"
+        tools:listitem="@layout/item_card"
+        tools:itemCount="6"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/inventory_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/itemsRecyclerView"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/new_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/new_item_name"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="left"
+            app:layout_constraintBottom_toTopOf="@id/new_item_name_input"
+            app:layout_constraintStart_toStartOf="@id/new_item_name_input"
+            app:layout_constraintEnd_toEndOf="@id/new_item_name_input"/>
+
+        <EditText
+            android:id="@+id/new_item_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:background="@color/secondary"
+            app:layout_constraintBottom_toTopOf="@id/new_item_sku"
+            app:layout_constraintStart_toStartOf="@id/new_item_sku"
+            app:layout_constraintEnd_toEndOf="@id/new_item_sku"/>
+
+        <TextView
+            android:id="@+id/new_item_sku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/new_item_sku"
+            android:layout_gravity="left"
+            app:layout_constraintBottom_toTopOf="@id/new_item_sku_input"
+            app:layout_constraintStart_toStartOf="@id/new_item_sku_input"
+            app:layout_constraintEnd_toEndOf="@id/new_item_sku_input"/>
+        
+        <EditText
+            android:id="@+id/new_item_sku_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:background="@color/secondary"
+            app:layout_constraintBottom_toTopOf="@id/buttonAddItem"
+            app:layout_constraintStart_toStartOf="@id/buttonAddItem"
+            app:layout_constraintEnd_toEndOf="@id/buttonAddItem"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAddItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_background_secondary"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
