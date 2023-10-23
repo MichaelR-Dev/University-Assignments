@@ -8,6 +8,7 @@
 4. [Software Test Automation & QA](README.md#software-test-automation--qa)
 5. [Python CRUD Module](README.md#pythong-crud-module)
 6. [DigitBloq Inventory App](README.md#digitbloq-inventory-app)
+7. [Treasure Hunt Game *BROKEN*](READMME.md#treasure-hunt-game)
 
 ### DriverPass Business System Requirements 
 
@@ -342,4 +343,55 @@ when I was developing them, having done so in my practice apps, and not followin
 the same "module implementation" strategy I used for much of the app, I relied heavily 
 on documentation and my previous knowledge, and ended up allowing myself to put 
 time into other things where I had struggled.
+```
+
+### Treasure Hunt Game
+- Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
+```
+The goal of the Treasure Hunt Game project was to employ tensorflow, keras, python, 
+and Q-Learning/Reinforcement learning in order to train an agent to play a treasure 
+hunting game involving a maze environment, where the pirate needs to find a treasure. 
+The code provided by my instructor involved the maze class, the game class, and 
+boiler plate for the keras model and formerly mentioned class integration.
+The code I wrote involved the reinforcement loop and epoch loop in order to train
+the model and utilize experience for exploitative action. The code is currently in a
+broken state and currently just hangs during runtime after a few epochs. 
+```
+- What do computer scientists do and why does it matter?
+```
+Computer Scientists employ technology most often for the better of humanity,
+by acting as machine interpreters, computer scientists can take technology
+and program it, modify it, and overall utilize it for automation and complex solution.
+This allows us to make huge advancements across every industry, by employing machines,
+we can speed up processes in medicine or crunch math problems in days for optimal solutions 
+in otherwise decade long research.
+```
+- How do I approach a problem as a computer scientist?
+```
+As a computer scientist myself, I do my best to approach problems with structure. By
+identifying the aspects of a problem, and outlining all factors and the overall
+environment of the problem, it allows me to find a suitable solution much easier.
+By thinking once how something might work in the physical world, and then figuring out
+how that translates to the digital world and to machine language.
+```
+- What are my ethical responsibilities to the end user and the organization?
+```
+I hold many ethical responsibilities to end users and organizations, with so much
+power at our finger tips with developing technology, we need to make sure it's
+deployed in a safe manner and safe guarded from malicious actors. With end-users
+there are both legal and ethical repercussions for lack of data privacy,
+lack of security, and even failure for end-user accessibility. By not upholding
+important ethics such as these, it can really impact the end-user's own personal lives.
+Should end-users struggle with a technology I created where other end-user don't face
+that same accessibility discrimination, I'm now effectively excluding their rights
+to the technology. Should the end-users data not be handled appropriately,
+this could cause privacy violations that may result in their lives being impacted.
+
+In the case of an organization, say an employer or client, there are significant
+ethical concerns that could cause similar issues down to an every employee level.
+Should a machine learned model cause a company PR crisis, it's possible
+everyone could lose their jobs. If the company suffers any data leaks, the company
+may have its products/user data stolen and held for ransom. These kinds of
+ethical concerns can result in organizations filing for bankruptcy,
+putting their employees at risk, and even putting their consumers at risk as well.
 ```
